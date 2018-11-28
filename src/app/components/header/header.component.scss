@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400,500,700');
+header {
+    background: #434343;
+    padding: 20px 20px;
+    display: inline-block;
+    width: 100%;
+    box-sizing: border-box;
+    text-align: center;
+    ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        li {
+            display: inline-block;
+            margin: 0 20px;
+            a {
+                color: #fff;
+                font-size: 22px;
+                display: block;
+                text-decoration: none;
+                font-weight: 500;
+                cursor: pointer;
+            }
+        }
+    }
+}
